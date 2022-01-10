@@ -1,3 +1,8 @@
+/*
+백준 4673
+ */
+
+
 import java.io.*;
 
 public class Hansu {

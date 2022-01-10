@@ -1,3 +1,7 @@
+/*
+백준 1065
+ */
+
 import java.io.*;
 
 public class SelfNumber{

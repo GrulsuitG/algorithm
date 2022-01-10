@@ -1,3 +1,7 @@
+/*
+백준 11654
+ */
+
 import java.io.*;
 
 public class Ascii1 {
