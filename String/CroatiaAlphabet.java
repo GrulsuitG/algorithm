@@ -25,7 +25,6 @@ public class CroatiaAlphabet {
                             i--;
                         }
                     } catch (Exception e) {
-                        ;
                     }
                 }
                 i--;
@@ -36,7 +35,6 @@ public class CroatiaAlphabet {
                     if (str[i - 1] == 'l' || str[i - 1] == 'n')
                         i--;
                 } catch (Exception e) {
-                    ;
                 }
             }
             total++;
@@ -45,16 +43,16 @@ public class CroatiaAlphabet {
 
     }
     //2번
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        String str = br.readLine();
-        String[] croatia = {"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};
-
-        for(String s : croatia){
-            if(str.contains(s))
-                str = str.replace(s, "0");
-        }
-        System.out.println(str.length());
-    }
+//    public static void main(String[] args) throws IOException {
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//
+//        String str = br.readLine();
+//        String[] croatia = {"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};
+//
+//        for(String s : croatia){
+//            if(str.contains(s))
+//                str = str.replace(s, "0");
+//        }
+//        System.out.println(str.length());
+//    }
 }
