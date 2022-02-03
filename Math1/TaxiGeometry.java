@@ -12,5 +12,6 @@ public class TaxiGeometry {
 
         System.out.printf("%.6f\n", r*r*Math.PI);
         System.out.printf("%.6f\n", 2.0*r*r);
+
     }
 }
