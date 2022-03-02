@@ -14,15 +14,12 @@ public class Sangsoo {
         for(int n = 0; n < s.length; n++) {
             int digit = 1;
             char[] temp = s[n].toCharArray();
-            for (int i = 0; i < temp.length; i++){
+            for (char c : temp) {
 
-                num[n] += (temp[i]-48)*digit;
+                num[n] += (c - 48) * digit;
                 digit *= 10;
             }
         }
-        if (num[0] > num[1])
-            System.out.println(num[0]);
-        else
-            System.out.println(num[1]);
+        System.out.println(Math.max(num[0], num[1]));
     }
 }

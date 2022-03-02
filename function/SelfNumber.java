@@ -26,7 +26,6 @@ public class SelfNumber{
             try {
                 arr[res] = 1;
             }catch(Exception e){
-                continue;
             }
         }
 

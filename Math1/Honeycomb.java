@@ -11,9 +11,7 @@ public class Honeycomb {
         int num = Integer.parseInt(br.readLine());
 
         int time = 1;
-        while(true) {
-            if(3 * time * time - 3 * time + 1 >= num)
-                break;
+        while (3 * time * time - 3 * time + 1 < num) {
             time++;
         }
         System.out.println(time);
