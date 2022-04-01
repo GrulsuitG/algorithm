@@ -36,6 +36,7 @@ public class Sdoku {
         }
         if (col == 9) {
             checkBoard(row + 1, 0);
+            return ;
         }
 
         if (board[row][col] == 0) {
