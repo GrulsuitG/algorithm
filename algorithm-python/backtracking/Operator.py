@@ -1,3 +1,5 @@
+# 백준 14888번
+
 import math
 
 min_res = math.inf
